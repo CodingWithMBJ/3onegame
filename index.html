@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Rock, Paper, Scissors</h1>
+
+      <div class="arena">
+        <div class="playerContainer">
+          <h3 id="player"></h3>
+          <div id="playerMove" class="playerMove">
+            <button id="rock">✊</button>
+            <button id="paper">🖐️</button>
+            <button id="scissor">✌️</button>
+          </div>
+        </div>
+
+        <div id="computerContainer" class="computerContainer">
+          <h3 id="computer"></h3>
+          <div id="computerMove" class="computerMove"></div>
+        </div>
+      </div>
+
+      <div class="finishing">
+        <p id="result" class="result"></p>
+
+        <div id="scoreboard" class="scoreboard">
+          <p>Wins: <span id="wins">0</span></p>
+          <p>Losses: <span id="losses">0</span></p>
+          <p>Ties: <span id="ties">0</span></p>
+          <p>Rounds: <span id="rounds">0</span></p>
+        </div>
+
+        <button id="resetBtn" class="resetBtn">Reset</button>
+      </div>
+    </div>
+
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
